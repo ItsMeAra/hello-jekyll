@@ -1,0 +1,45 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <!-- Prefetch DNS for external assets (Twitter widgets etc). -->
+    <!-- <link rel="dns-prefetch" href="//platform.twitter.com">
+    <link rel="dns-prefetch" href="//p.twitter.com">
+    <link rel="dns-prefetch" href="//cdn.api.twitter.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com"> -->
+
+    <title>
+        {% if page.title == "Home" %}
+          {{ site.title }} &middot; {{ site.tagline }}
+        {% else %}
+          {{ page.title }} &middot; {{ site.title }}
+        {% endif %}
+    </title>
+
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    
+    <!-- Google -->
+    {% if site.gplus %}
+    <link rel="publisher" href="https://plus.google.com/{{ site.gplus }}">
+    {% endif %} 
+
+    <!-- Misc -->
+    <meta name="author" content="humans.txt">
+    <link rel="shortcut icon" href="/public/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+
+    <!-- CSS -->
+    {% if site.google_font %}
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family={{ site.google_font }}">
+    {% endif %}
+    <link rel="stylesheet" href="/public/css/master.css">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+</head>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+    {% include head.html %}
+
+    <body class="page  {{ page.page-class }}">
+
+        <div class="siteContainer">
+            {% include site-header.html %}
+
+            <div class="mainContent">
+                {{ content }}
+            </div> <!-- /.content -->
+
+            {% include site-footer.html %}
+        </div> <!-- /.site -->
+
+        {% include site-scripts.html %}
+    </body>
+</html>

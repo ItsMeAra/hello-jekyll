@@ -1,0 +1,42 @@
+---
+layout: default
+title: Blog
+page-class: page--blog
+---
+
+<div class="posts">
+    {% for post in paginator.posts %}
+    <div class="post">
+        <header class="post-header">
+            <h2 class="post-header-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p class="post-date"><time pubdate="pubdate">{{ post.date | date_to_string }}</time></p>
+        </header>
+
+        <div class="post-entry">
+            {{ post.content | split: '<!-- more -->' | first }}
+        </div>
+
+        <footer>
+            <a href="{{ post.url }}" class="btn">Read More</a> 
+        </footer>        
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+    {% if paginator.next_page %}
+        <a href="/page{{paginator.next_page}}" class="older">Older</a>
+    {% else %}
+        <span class="next">Older</span>
+    {% endif %}
+    {% if paginator.previous_page %}
+        {% if paginator.page == 2 %}
+            <a href="/" class="newer">Newer</a>
+        {% else %}
+            <a href="/page{{paginator.previous_page}}" class="newer">Newer</a>
+        {% endif %}
+    {% else %}
+        <span class="previous">Newer</span>
+    {% endif %}
+</div>
