@@ -15,7 +15,7 @@ After cloning this repo, follow these steps:
 #### For a production ready build, run `grunt prod`.
 
 
-## Config
+## Config Options
 Configuration options in `_config.yml` file:
 
     # General Settings
