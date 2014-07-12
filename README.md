@@ -1,6 +1,6 @@
 # Hello Jekyll
 
-Hello Jekyll is an unstyled and somewhat opinionated [Jekyll](http://jekyllrb.com) boilerplate that utilizes [LESS](http://lesscss.org/) as the CSS preprocessor and [Grunt](http://gruntjs.com/) as the task runner. 
+Hello Jekyll is an un-styled and somewhat opinionated [Jekyll](http://jekyllrb.com) boilerplate that utilizes [LESS](http://lesscss.org/) as the CSS preprocessor and [Grunt](http://gruntjs.com/) as the task runner. 
 
 
 ## Usage
