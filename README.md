@@ -10,6 +10,7 @@ After cloning this repo, follow these steps:
 1. Install Jekyll with `gem install jekyll`.
 2. Install project dependencies with `npm install`.
 3. Run Grunt with `grunt`.
+  
 
 
 
