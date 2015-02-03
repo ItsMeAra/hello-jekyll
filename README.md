@@ -12,7 +12,7 @@ After cloning this repo, follow these steps:
 3. Run Grunt with `grunt`.
 4. Get to work!
 
-    For a production ready build, run `grunt prod`.
+- For a production ready build, run `grunt prod`.
 
 
 ## Config Options
