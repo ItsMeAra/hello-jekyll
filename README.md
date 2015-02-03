@@ -11,9 +11,6 @@ After cloning this repo, follow these steps:
 2. Install project dependencies with `npm install`.
 3. Run Grunt with `grunt`.
   
-
-
-
 - For a production ready build, run `grunt prod`.
 
 
