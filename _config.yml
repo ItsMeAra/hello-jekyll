@@ -1,6 +1,6 @@
 # General Settings
 markdown:               redcarpet
-pygments:               true
+highlighter:               true
 
 # Post Settings
 permalink:              pretty
