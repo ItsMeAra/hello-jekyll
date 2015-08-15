@@ -36,3 +36,8 @@ Special thanks to these people/projects for the pro tips:
 + [tomblanchard.co.uk](https://github.com/tomblanchard/tomblanchard.co.uk) by [Tom Blanchard](http://twitter.com/tomblanchardcss)
 + [Hyde](https://github.com/mdo/hyde/) by [Mark Otto](http://twitter.com/mdo)
 + [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
+
+
+## License
+
+MIT License: <https://github.com/ItsMeAra/hello-jekyll/blob/master/LICENSE.txt>
