@@ -3,7 +3,7 @@
   "title": "Hello Jekyll",
   "author": "Ara Abcarians",
   "copyright": "2014",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-less": "*",

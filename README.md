@@ -9,7 +9,7 @@ Hello Jekyll is an un-styled and somewhat opinionated [Jekyll](http://jekyllrb.c
 
 After cloning this repo, follow these steps:
 
-1. Install Jekyll with `gem install jekyll`
+1. Install Jekyll (if you dont have it) with `gem install jekyll`
 2. Install project dependencies with `npm install`
 3. Run Grunt with `grunt`
 4. Get to work! 
@@ -17,9 +17,10 @@ After cloning this repo, follow these steps:
 
 For a production ready build, run `grunt prod`.
 
-## Config Options
-Configuration options in `_config.yml` file.
 
+## Notes
+- Make sure to update the `CNAME` file with your URL.
+- Configuration options can be found in the `_config.yml` file.
 
 ## Author
 
@@ -30,7 +31,7 @@ Configuration options in `_config.yml` file.
 
 ## Credits
 
-Many tips and tricks have been learned and used from these great projects:
+Special thanks to these people/projects for the pro tips:
 
 + [tomblanchard.co.uk](https://github.com/tomblanchard/tomblanchard.co.uk) by [Tom Blanchard](http://twitter.com/tomblanchardcss)
 + [Hyde](https://github.com/mdo/hyde/) by [Mark Otto](http://twitter.com/mdo)

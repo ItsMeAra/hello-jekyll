@@ -27,6 +27,7 @@ exclude:
 - "test-infra"
 - "Gemfile"
 - "Gemfile.lock"
+- "public/less"
 keep_files:             ['.git','.svn']
 
 
@@ -37,6 +38,7 @@ description:            "An unstyled and somewhat opinionated <a href='http://je
 baseurl:                /
 url:                    http://itsmeara.com
 
+# Replace with your social info
 author:
     name:               'Ara Abcarians'
     url:                https://itsmeara.com
@@ -45,7 +47,7 @@ author:
     gplus:              '101183822199340201470'  
 
 
-# Analytics     
+# Google Analytics     
 analytics:
   google: 
     # eg. 'UA-123-12'

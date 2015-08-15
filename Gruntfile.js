@@ -150,13 +150,13 @@ module.exports = function(grunt) {
             //     }
             // },
 
-            htmlmin: {
-                files: '_site/**/*.{html}',
-                tasks: ['htmlmin'],
-                options: {
-                    spawn: false
-                }
-            },
+            // htmlmin: {
+            //     files: '_site/**/*.{html}',
+            //     tasks: ['htmlmin'],
+            //     options: {
+            //         spawn: false
+            //     }
+            // },
 
             jekyll: {
                 files: ['_includes/**/*', '_layouts/**/*', '_plugins/**/*', '_posts/**/*', '*.html', '_config.yml'],
