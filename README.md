@@ -22,16 +22,10 @@ For a production ready build, run `grunt prod`.
 - Make sure to update the `CNAME` file with your URL.
 - Configuration options can be found in the `_config.yml` file.
 
-## Author
-
-**Ara Abcarians**
-- <https://github.com/itsmeara>
-- <https://twitter.com/itsmeara>
-
 
 ## Credits
 
-Special thanks to these people/projects for the pro tips:
+Numerous pro tips from these fine people/projects:  
 
 + [tomblanchard.co.uk](https://github.com/tomblanchard/tomblanchard.co.uk) by [Tom Blanchard](http://twitter.com/tomblanchardcss)
 + [Hyde](https://github.com/mdo/hyde/) by [Mark Otto](http://twitter.com/mdo)
@@ -40,4 +34,4 @@ Special thanks to these people/projects for the pro tips:
 
 ## License
 
-MIT License: <https://github.com/ItsMeAra/hello-jekyll/blob/master/LICENSE.txt>
+[MIT License](https://github.com/ItsMeAra/hello-jekyll/blob/master/LICENSE.txt)
