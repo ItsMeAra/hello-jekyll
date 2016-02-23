@@ -34,7 +34,7 @@ keep_files:             ['.git','.svn']
 title:                  "Hello Jekyll"
 tagline:                "An unstyled and somewhat opinionated Jekyll boilerplate that utilizes LESS and Grunt."
 description:            "An unstyled and somewhat opinionated <a href='http://jekyllrb.com' target='_blank'>Jekyll</a> boilerplate that utilizes LESS and Grunt. Made by <a href='https://twitter.com/itsmeara' target='_blank'>@itsMeAra</a>."
-baseurl:                /hello-jekyll/
+baseurl:                /hello-jekyll
 url:                    http://itsmeara.github.io/hello-jekyll/
 
 # Replace with your social info
