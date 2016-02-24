@@ -21,16 +21,17 @@ For a production ready build, run `grunt prod`.
 
 
 ## Notes
-- Make sure to update the `CNAME` file with your URL.
+- Make sure to update the `CNAME` file with your site's URL.
 - Configuration options can be found in the `_config.yml` file.
 
 
 ## Credits
 
-Numerous pro tips from these fine people/projects:  
+Various #proTips from these fine people/projects:  
 
 + [tomblanchard.co.uk](https://github.com/tomblanchard/tomblanchard.co.uk) by [Tom Blanchard](http://twitter.com/tomblanchardcss)
 + [Hyde](https://github.com/mdo/hyde/) by [Mark Otto](http://twitter.com/mdo)
++ [Jekyll Templates for Atom, RSS](https://davecoyle.com/tech-notes/jekyll-templates-for-atom-rss/)
 + [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
 
 
