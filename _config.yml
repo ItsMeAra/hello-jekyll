@@ -39,18 +39,18 @@ url:
 
 # Replace with your social info
 author:
-    name:               'Ara Abcarians'
-    url:                https://itsmeara.com
-    twitter:            itsmeara
-    github:             itsmeara
-    gplus:              '101183822199340201470'  
+    name:               'Your Name'
+    url:                'https://your-website.com'
+    twitter:            '@yourName'
+    github:             'yourName'
+    gplus:              'XXXXXXXXXXXXXX'  
 
 
 # Google Analytics     
 analytics:
   google: 
     # eg. 'UA-123-12'
-    site_id:               'UA-123-12'
+    site_id:               'UA-XXX-XX'
 
 
 # Google Fonts
